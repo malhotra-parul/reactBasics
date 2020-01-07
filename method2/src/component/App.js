@@ -7,7 +7,9 @@ class App extends Component{
         return(
             <div>
                 <h1>Hello from App.</h1>
-                <Fun/>
+                <Fun name="Tom" />
+                <Fun name="Harry" />
+                <Fun name="Antony" />
                 <Welcome/>
             </div>
         )
