@@ -1,18 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom";
+//Won't auto update
+class Clock extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
 
-// function Clock(props){
-//     return(
-//         <div>
-//             <h1>Hello, world!</h1>
-//             <h2>It is {props.date.toLocaleTimeString()}.</h2>
-//         </div>
-//     )
-// };
-// function tick(){
-//     ReactDOM.render(<Clock date={new Date()} />, document.getElementById("root"));
-// }
-// setInterval(tick(), 1000);
+        }
+    }
+    render(){
+        return(
+            <div>
+                <h1>Hello World!</h1>
+                <h2>{this.props.date.toLocaleTimeString()}</h2>
+            </div>
+        )
+    }
+}
+
 
 export default Clock;
-//class-Based
