@@ -5,7 +5,7 @@ import Clock from "./component/Clock";
 //import Clock from "./component/Clock";
 
 
-ReactDOM.render(<Clock date={new Date()} />, document.getElementById("main"));
+ReactDOM.render(<Clock />, document.getElementById("main"));
 
 
 
