@@ -4,10 +4,11 @@ import './index.css';
 // import Clock from "./component/Clock";
 // import ActionClick from "./component/ActionLink";
 // import Toggle from "./component/Toggle";
-import Greeting from "./component/Greeting";
+//import Greeting from "./component/Greeting";
+import LoginControl from "./component/LoginControl";
 
 
-ReactDOM.render(<Greeting isLoggedin={false}/>, document.getElementById("main"));
+ReactDOM.render(<LoginControl />, document.getElementById("main"));
 
 
 
