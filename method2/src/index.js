@@ -8,10 +8,12 @@ import './index.css';
 //import Greeting from "./component/Greeting";
 // import LoginControl from "./component/LoginControl";
 // import Page from "./component/Page";
-import Lists from "./component/Lists";
+//import Lists from "./component/Lists";
 
 
-ReactDOM.render(<Lists />, document.getElementById("main"));
+
+//ReactDOM.render(<Lists />, document.getElementById("main"));
+
 
 
 
