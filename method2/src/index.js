@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Clock from "./component/Clock";
-import ActionClick from "./component/ActionLink";
+// import Clock from "./component/Clock";
+// import ActionClick from "./component/ActionLink";
+// import Toggle from "./component/Toggle";
+import Greeting from "./component/Greeting";
 
 
-ReactDOM.render(<ActionClick />, document.getElementById("main"));
+ReactDOM.render(<Greeting isLoggedin={false}/>, document.getElementById("main"));
 
 
 
