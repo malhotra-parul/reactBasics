@@ -7,10 +7,11 @@ import './index.css';
 // import Toggle from "./component/Toggle";
 //import Greeting from "./component/Greeting";
 // import LoginControl from "./component/LoginControl";
-import Page from "./component/Page"
+// import Page from "./component/Page";
+import Lists from "./component/Lists";
 
 
-ReactDOM.render(<Page />, document.getElementById("main"));
+ReactDOM.render(<Lists />, document.getElementById("main"));
 
 
 
