@@ -11,11 +11,12 @@ import './index.css';
 //import Lists from "./component/Lists";
 // import Forms from "./component/Forms";
 // import Textarea from "./component/Textarea";
-import Select from './component/Select';
+// import Select from './component/Select';
+import Multiple from './component/Multiple';
 
 
 
-ReactDOM.render(<Select />, document.getElementById("main"));
+ReactDOM.render(<Multiple />, document.getElementById("main"));
 
 
 
