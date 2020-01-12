@@ -9,11 +9,13 @@ import './index.css';
 // import LoginControl from "./component/LoginControl";
 // import Page from "./component/Page";
 //import Lists from "./component/Lists";
-import Forms from "./component/Forms";
+// import Forms from "./component/Forms";
+// import Textarea from "./component/Textarea";
+import Select from './component/Select';
 
 
 
-ReactDOM.render(<Forms />, document.getElementById("main"));
+ReactDOM.render(<Select />, document.getElementById("main"));
 
 
 
