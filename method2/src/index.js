@@ -9,10 +9,11 @@ import './index.css';
 // import LoginControl from "./component/LoginControl";
 // import Page from "./component/Page";
 //import Lists from "./component/Lists";
+import Forms from "./component/Forms";
 
 
 
-//ReactDOM.render(<Lists />, document.getElementById("main"));
+ReactDOM.render(<Forms />, document.getElementById("main"));
 
 
 
